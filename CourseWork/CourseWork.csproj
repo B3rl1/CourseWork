@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="4.5.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="HungarianAlgorithm">
+      <HintPath>..\..\HungarianAlgorithm-master\HungarianAlgorithm\bin\Debug\net45\HungarianAlgorithm.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
